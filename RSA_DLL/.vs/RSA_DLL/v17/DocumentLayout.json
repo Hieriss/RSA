@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Workspace\\RSA\\RSA_DLL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6BACFCC5-ECE1-4F34-8009-F2AC52B4042B}|RSA_DLL.vcxproj|E:\\Workspace\\RSA\\RSA_DLL\\RSA.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6BACFCC5-ECE1-4F34-8009-F2AC52B4042B}|RSA_DLL.vcxproj|solutionrelative:RSA.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BACFCC5-ECE1-4F34-8009-F2AC52B4042B}|RSA_DLL.vcxproj|E:\\Workspace\\RSA\\RSA_DLL\\dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6BACFCC5-ECE1-4F34-8009-F2AC52B4042B}|RSA_DLL.vcxproj|solutionrelative:dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RSA.cpp",
+              "DocumentMoniker": "E:\\Workspace\\RSA\\RSA_DLL\\RSA.cpp",
+              "RelativeDocumentMoniker": "RSA.cpp",
+              "ToolTip": "E:\\Workspace\\RSA\\RSA_DLL\\RSA.cpp",
+              "RelativeToolTip": "RSA.cpp",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAGAAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-17T08:15:16.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dllmain.cpp",
+              "DocumentMoniker": "E:\\Workspace\\RSA\\RSA_DLL\\dllmain.cpp",
+              "RelativeDocumentMoniker": "dllmain.cpp",
+              "ToolTip": "E:\\Workspace\\RSA\\RSA_DLL\\dllmain.cpp",
+              "RelativeToolTip": "dllmain.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-17T08:13:01.988Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
