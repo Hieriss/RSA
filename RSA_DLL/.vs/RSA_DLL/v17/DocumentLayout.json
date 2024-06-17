@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "RSA.cpp",
               "ToolTip": "E:\\Workspace\\RSA\\RSA_DLL\\RSA.cpp",
               "RelativeToolTip": "RSA.cpp",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAAAGAAAAAVAAAA",
+              "ViewState": "AQIAADUBAAAAAAAAAAAAAGAAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-06-17T08:15:16.13Z",
               "EditorCaption": ""
@@ -43,8 +43,17 @@
               "RelativeToolTip": "dllmain.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-06-17T08:13:01.988Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-17T08:13:01.988Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 99,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             }
           ]
         }

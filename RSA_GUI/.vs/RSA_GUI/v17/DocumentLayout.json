@@ -1,0 +1,162 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Workspace\\RSA\\RSA_GUI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{56B281E5-A67F-4A04-8C9F-FEFEA969D1DF}|RSA_GUI.csproj|e:\\workspace\\rsa\\rsa_gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56B281E5-A67F-4A04-8C9F-FEFEA969D1DF}|RSA_GUI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56B281E5-A67F-4A04-8C9F-FEFEA969D1DF}|RSA_GUI.csproj|e:\\workspace\\rsa\\rsa_gui\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56B281E5-A67F-4A04-8C9F-FEFEA969D1DF}|RSA_GUI.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56B281E5-A67F-4A04-8C9F-FEFEA969D1DF}|RSA_GUI.csproj|e:\\workspace\\rsa\\rsa_gui\\decryptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56B281E5-A67F-4A04-8C9F-FEFEA969D1DF}|RSA_GUI.csproj|solutionrelative:decryptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56B281E5-A67F-4A04-8C9F-FEFEA969D1DF}|RSA_GUI.csproj|e:\\workspace\\rsa\\rsa_gui\\decryptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56B281E5-A67F-4A04-8C9F-FEFEA969D1DF}|RSA_GUI.csproj|solutionrelative:decryptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56B281E5-A67F-4A04-8C9F-FEFEA969D1DF}|RSA_GUI.csproj|e:\\workspace\\rsa\\rsa_gui\\encryptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56B281E5-A67F-4A04-8C9F-FEFEA969D1DF}|RSA_GUI.csproj|solutionrelative:encryptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56B281E5-A67F-4A04-8C9F-FEFEA969D1DF}|RSA_GUI.csproj|e:\\workspace\\rsa\\rsa_gui\\keygenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56B281E5-A67F-4A04-8C9F-FEFEA969D1DF}|RSA_GUI.csproj|solutionrelative:keygenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56B281E5-A67F-4A04-8C9F-FEFEA969D1DF}|RSA_GUI.csproj|e:\\workspace\\rsa\\rsa_gui\\encryptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56B281E5-A67F-4A04-8C9F-FEFEA969D1DF}|RSA_GUI.csproj|solutionrelative:encryptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56B281E5-A67F-4A04-8C9F-FEFEA969D1DF}|RSA_GUI.csproj|e:\\workspace\\rsa\\rsa_gui\\keygenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56B281E5-A67F-4A04-8C9F-FEFEA969D1DF}|RSA_GUI.csproj|solutionrelative:keygenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Workspace\\RSA\\RSA_GUI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\Workspace\\RSA\\RSA_GUI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T09:27:56.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Menu.cs [Design]",
+              "DocumentMoniker": "E:\\Workspace\\RSA\\RSA_GUI\\Menu.cs",
+              "RelativeDocumentMoniker": "Menu.cs",
+              "ToolTip": "E:\\Workspace\\RSA\\RSA_GUI\\Menu.cs [Design]",
+              "RelativeToolTip": "Menu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T09:26:26.005Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Decryptor.cs",
+              "DocumentMoniker": "E:\\Workspace\\RSA\\RSA_GUI\\Decryptor.cs",
+              "RelativeDocumentMoniker": "Decryptor.cs",
+              "ToolTip": "E:\\Workspace\\RSA\\RSA_GUI\\Decryptor.cs",
+              "RelativeToolTip": "Decryptor.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAtwCUAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T09:24:07.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Decryptor.cs [Design]",
+              "DocumentMoniker": "E:\\Workspace\\RSA\\RSA_GUI\\Decryptor.cs",
+              "RelativeDocumentMoniker": "Decryptor.cs",
+              "ToolTip": "E:\\Workspace\\RSA\\RSA_GUI\\Decryptor.cs [Design]",
+              "RelativeToolTip": "Decryptor.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T09:19:16.222Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Encryptor.cs",
+              "DocumentMoniker": "E:\\Workspace\\RSA\\RSA_GUI\\Encryptor.cs",
+              "RelativeDocumentMoniker": "Encryptor.cs",
+              "ToolTip": "E:\\Workspace\\RSA\\RSA_GUI\\Encryptor.cs",
+              "RelativeToolTip": "Encryptor.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T09:16:17.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Encryptor.cs [Design]",
+              "DocumentMoniker": "E:\\Workspace\\RSA\\RSA_GUI\\Encryptor.cs",
+              "RelativeDocumentMoniker": "Encryptor.cs",
+              "ToolTip": "E:\\Workspace\\RSA\\RSA_GUI\\Encryptor.cs [Design]",
+              "RelativeToolTip": "Encryptor.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T09:04:34.76Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "KeyGenerator.cs",
+              "DocumentMoniker": "E:\\Workspace\\RSA\\RSA_GUI\\KeyGenerator.cs",
+              "RelativeDocumentMoniker": "KeyGenerator.cs",
+              "ToolTip": "E:\\Workspace\\RSA\\RSA_GUI\\KeyGenerator.cs",
+              "RelativeToolTip": "KeyGenerator.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAowBUAAABtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T08:59:33.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "KeyGenerator.cs [Design]",
+              "DocumentMoniker": "E:\\Workspace\\RSA\\RSA_GUI\\KeyGenerator.cs",
+              "RelativeDocumentMoniker": "KeyGenerator.cs",
+              "ToolTip": "E:\\Workspace\\RSA\\RSA_GUI\\KeyGenerator.cs [Design]",
+              "RelativeToolTip": "KeyGenerator.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T08:48:19.2Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 99,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
