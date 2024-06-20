@@ -1,11 +1,3 @@
-// Debug:
-// g++ -g -ggdb -O0 -Wall -Wextra -Wno-unused -Wno-type-limits -I. -I/usr/include/cryptopp cryptopp-key-gen.cpp -o cryptopp-key-gen.exe -lcryptopp
-
-// Release:
-// g++ -O2 -Wall -Wextra -Wno-unused -Wno-type-limits -I. -I/usr/include/cryptopp cryptopp-key-gen.cpp -o cryptopp-key-gen.exe -lcryptopp && strip --strip-all cryptopp-key-gen.exe
-
-// This version use g++, compiled on Windows 11
-
 #ifdef _WIN32
 #include <windows.h>
 #endif
@@ -133,12 +125,23 @@ void Encrypt(const char* keyFormat, const char* publicFile, const char* plainTex
         exit(1);
     }
 
-    RSAES_OAEP_SHA_Encryptor e(publicKey);
-    string plainText;
-    FileSource(plainTextFile, true, new StringSink(plainText));
+    auto start = std::chrono::high_resolution_clock::now();
+    for (int i = 0; i < 10000; i++)
+    {
+        RSAES_OAEP_SHA_Encryptor e(publicKey);
+        string plainText;
+        FileSource(plainTextFile, true, new StringSink(plainText));
 
-    StringSource(plainText, true, new PK_EncryptorFilter(rng, e, new FileSink(cipherTextFile)));
-    cout << "Encrypted successfully, ciphertext is saved to \"" << cipherTextFile << "\"" << endl;
+        StringSource(plainText, true, new PK_EncryptorFilter(rng, e, new FileSink(cipherTextFile)));
+        cout << "Encrypted successfully, ciphertext is saved to \"" << cipherTextFile << "\"" << endl;
+    }
+
+    auto stop = std::chrono::high_resolution_clock::now();
+    auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(stop - start);
+    cout << "\n----------------------------------------------------------" << endl;
+    cout << "Overview RSA Encryption Test" << endl;
+    cout << "\nEncryption time: " << duration.count() << " milliseconds" << endl;
+    cout << "----------------------------------------------------------" << endl;
 }
 
 
@@ -158,12 +161,23 @@ void Decrypt(const char* keyFormat, const char* privateFile, const char* plainTe
         exit(1);
     }
 
-    RSAES_OAEP_SHA_Decryptor d(privateKey);
-    string cipherText;
-    FileSource(cipherTextFile, true, new StringSink(cipherText));
+    auto start = std::chrono::high_resolution_clock::now();
+    for (int i = 0; i < 10000; i++)
+    {
+        RSAES_OAEP_SHA_Decryptor d(privateKey);
+        string cipherText;
+        FileSource(cipherTextFile, true, new StringSink(cipherText));
 
-    StringSource(cipherText, true, new PK_DecryptorFilter(rng, d, new FileSink(plainTextFile)));
-    cout << "Decrypted successfully, plaintext is saved to \"" << plainTextFile << "\"" << endl;
+        StringSource(cipherText, true, new PK_DecryptorFilter(rng, d, new FileSink(plainTextFile)));
+        cout << "Decrypted successfully, plaintext is saved to \"" << plainTextFile << "\"" << endl;
+    }
+
+    auto stop = std::chrono::high_resolution_clock::now();
+    auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(stop - start);
+    cout << "\n----------------------------------------------------------" << endl;
+    cout << "Overview RSA Decryption Test" << endl;
+    cout << "\nDecryption time: " << duration.count() << " milliseconds" << endl;
+    cout << "----------------------------------------------------------" << endl;
 }
 
 void Usage()
